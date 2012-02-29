@@ -1,0 +1,49 @@
+#********************************************************************************************
+#
+#   THIS WORKING EXAMPLE CONTAINS
+#
+#   - A social simulation model of context switching written using the MASON framework
+#   - A simple example on how to configure, initialize a model and get the results
+#   - A package to test a JPPF grid overheads using simple dummy tasks
+#   - A package containing an example on how to submit social simulation model to a JPPF grid and collect the results
+#
+#*********************************************************************************************
+
+#********************************************************************************************
+#
+#   JAVA PACKAGE ORGANIZATION
+#   The java packages are organized in the following manner:
+#   contextswitching:                   context switching model, GUI and simple model runner
+#   contextswitching.grid:              grid clinet working example
+#   contextswitching.grid.performance:  grid simple test to evaluate the parallel execution performance 
+#
+#*********************************************************************************************
+
+#********************************************************************************************
+#
+#   RUNNING THE EXAMPLES
+#   The sources are distributed as a Netbeans Project 
+#   you can either: 
+#       -use Netbeans to open the project and run the different classes
+#       -compile the sources with javac and execute the classes with java <class name>
+#       
+#   
+#   NOTE: to execute the grid examples you should setup a JPPF grid beforehand 
+#   To do that you should download the GRID Administration and Monitoring Console
+#   the server and the node distribution
+#   install the server on one machine
+#   and run the grid node software in the machines you want to use as grid nodes
+#   The software can be found here http://www.jppf.org/downloads.php
+# 
+#   For more information on this consult the JPPF documentation on http://www.jppf.org
+#
+#*********************************************************************************************
+
+
+
+#********************************************************************************************
+#
+#   DOCUMENTATION
+#   The JAVADOC documentation is also available for the available source code
+#
+#*********************************************************************************************
